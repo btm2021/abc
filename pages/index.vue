@@ -7,7 +7,7 @@
     </div>
     <div class="main">
       <b-row>
-        <b-col cols="3">
+        <b-col md="3" lg="3" sm="12">
           <div class="accordion" role="tablist">
             <b-card no-body class="mb-2" v-for="(moduleVideo, index1) in listvideo" :key="index1">
               <b-card-header header-tag="header" class="p-1" role="tab">
@@ -41,7 +41,7 @@
 
           </div>
         </b-col>
-        <b-col cols="9" class="mt-2">
+        <b-col  md="9" lg="9" sm="12" class="mt-2">
           <div style="background-size: 100% 100%; background:url('bg.jpg')">
             <b-embed type="iframe" allow="autoplay" :src="urlMainVideo" allowfullscreen frameborder="0">
             </b-embed>
